@@ -1,0 +1,31 @@
+{
+  "name": "chasers-acceptance-test",
+  "version": "1.0.9",
+  "description": "chasers site Acceptance Test",
+  "scripts": {
+    "setup": "npm install",
+    "test": "npm run test:local",
+    "test:local": "./node_modules/.bin/wdio conf/env/wdio.conf.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.32.2",
+    "cucumber": "^3.1.0",
+    "js-yaml": "^3.10.0",
+    "wdio-cucumber-framework": "^0.3.1",
+    "wdio-cucumber-reporter": "^0.0.2",
+    "wdio-cucumber-snippet-reporter": "0.0.4",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.9.11"
+  }
+}
