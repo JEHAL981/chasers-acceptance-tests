@@ -21,6 +21,7 @@
     "chromedriver": "^2.32.2",
     "cucumber": "^3.1.0",
     "js-yaml": "^3.10.0",
+    "jshint": "^2.9.5",
     "wdio-cucumber-framework": "^0.3.1",
     "wdio-cucumber-reporter": "^0.0.2",
     "wdio-cucumber-snippet-reporter": "0.0.4",
