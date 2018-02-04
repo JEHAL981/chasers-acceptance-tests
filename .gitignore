@@ -12,4 +12,5 @@ src/test/kobaltportal/.DS_Store/
 src/test/kobaltportal/pages/.DS_Store/
 package-lock.json
 .DS_Store
+.vscode/
 dist/
