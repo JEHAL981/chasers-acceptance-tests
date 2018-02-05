@@ -29,20 +29,13 @@ Installation
 To install the test suite locally, including the above npm dependencies:
 
 1. Clone this repository.
-1. Run `yarn install` from the root directory of this repository.
-
-### Bamboo
-Running under build plan portal-web-acceptance-tests 
-
-[http://bamboo.kobaltmusic.com:8085](http://bamboo.kobaltmusic.com)
-
-1. Script `yarn run test:bamboo`
+1. Run `npm install` from the root directory of this repository.
 
 ### Local
 
 To run the tests locally against the test portal environment:
 
-1. Run `yarn run test:local`
+1. Run `npm run test:local`
 
 
 Configuration
