@@ -63,6 +63,6 @@ To look at the tests
 --------------------
 
 Either just run the tests using the above directions, or take a look in the [features](features) directory.
-Example: [kobalt-client-signin.feature](features/portal/v2/kobalt-client-signin.feature)
+Example: [chasers_member_login.feature](features/chasers/chasers_member_login.feature)
 
 
