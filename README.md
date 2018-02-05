@@ -66,30 +66,3 @@ Either just run the tests using the above directions, or take a look in the [fea
 Example: [kobalt-client-signin.feature](features/portal/v2/kobalt-client-signin.feature)
 
 
-Road map
-----
-
-The team are currently working towards:
-1. Replacing Allure HTML with Cucumber HTML reports.
-2. Support Mobile Automation for Android & iOS (Appium)
-
-
-Release Notes
--------------
-
-Release details are on Kobaltmusic wiki page.
-
-Kobalt-Portal Acceptance-Test Framework Release Notes:
-
-[http://kwiki.kobaltmusic.com:8090](http://kwiki.kobaltmusic.com:8090/pages/viewpage.action?pageId=38636611)
-
-
-
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b feature/my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/my-new-feature`)
-5. Create new Pull Request
