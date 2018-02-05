@@ -3,7 +3,6 @@
 .DS_Store/
 node_modules/
 target/
-/.DS_Store
 conf/.DS_Store
 src/.DS_Store/
 src/test/.DS_Store/
@@ -12,5 +11,5 @@ src/test/kobaltportal/.DS_Store/
 src/test/kobaltportal/pages/.DS_Store/
 package-lock.json
 .DS_Store
-.vscode/
+.vscode/*
 dist/
