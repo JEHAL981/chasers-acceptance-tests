@@ -11,5 +11,5 @@ Feature: chasers member login
 
   @complete
   Scenario: Login with valid credentials
-    When authorised chaser member signs in  
+    Given I am authorised chaser member signed in  
     Then I should be directed to the chasers memebers section
