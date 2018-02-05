@@ -5,8 +5,7 @@ module.exports = function () {
 
 
 this.Then(/^I should be directed to the chasers memebers section$/, () => {
-    // Write code here that turns the phrase above into concrete actions
-    return 'pending';
+    homepage.homeTitleIsDisplayed();
 });
 
 }

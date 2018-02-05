@@ -7,9 +7,8 @@ this.Given(/^I am on the claphamchasers Sign In page$/, () => {
    loginpage.openPage();
 });
 
-this.When(/^authorised chaser member signs in$/, () => {
-    loginpage.authenticatedUser();
-    loginpage.clickSignInButton();
+this.When(/^(authorised|unauthorised) chaser member signs in$/, (type) => {
+    loginpage.authenticatedUser(type);
 });
 
 }
