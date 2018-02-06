@@ -31,7 +31,7 @@ exports.config = {
 
 
 
-        browserName: 'firefox',
+        browserName: 'chrome',
           maxInstances: 1,
     }],
 

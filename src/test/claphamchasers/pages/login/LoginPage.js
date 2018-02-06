@@ -14,7 +14,8 @@ import fs from 'fs';
 
 const {
     chasers_login_page_sigin_in_button,
-    chasers_login_page_email_address_text_field
+    chasers_login_page_email_address_text_field,
+    chasers_login_page_password_text_field
 } = loginPage;
 
 class LoginPage extends Page {
