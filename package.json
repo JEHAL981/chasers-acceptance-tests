@@ -24,7 +24,7 @@
     "geckodriver": "^1.10.0",
     "js-yaml": "^3.10.0",
     "jshint": "^2.9.5",
-    "wdio-cucumber-framework": "^0.3.1",
+    "wdio-cucumber-framework": "^1.1.0",
     "wdio-cucumber-reporter": "^0.0.2",
     "wdio-cucumber-snippet-reporter": "0.0.4",
     "wdio-junit-reporter": "^0.3.1",

@@ -1,6 +1,3 @@
-require('babel-register')
-require('babel-polyfill')
-
 exports.config = {
 
     /**
@@ -69,15 +66,21 @@ exports.config = {
     },
 
     cucumberOpts: {
-        require: ['./features/step-definitions/'],
-        backtrace: true,
+        require: [
+            './features/step_definitions/HomePageStepDefs.js',
+            './features/step_definitions/LoginPageStepDefs.js.js'
+
+
+        ],
+        backtrace: false,
+        compiler: ['js:babel-core/register'],
         dryRun: false,
-        failFast: true,
+        failFast: false,
         format: ['pretty'],
         colors: true,
         snippets: true,
         source: true,
-        strict: true,
+        strict: false,
         tags: ['@chasers', '@complete'],
         timeout: 280000,
         ignoreUndefinedDefinitions: true,
