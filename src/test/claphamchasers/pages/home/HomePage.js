@@ -5,7 +5,6 @@
  **/
 
 
-
 import {homePage} from "../../locator/chasers/homepage_locator";
 
 const {

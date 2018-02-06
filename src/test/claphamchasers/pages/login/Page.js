@@ -22,4 +22,5 @@ class Page {
         browser.url(url);
     }
 }
+
 module.exports = Page;
