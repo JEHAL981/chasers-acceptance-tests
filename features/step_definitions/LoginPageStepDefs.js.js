@@ -1,7 +1,7 @@
 import loginpage from '../../src/test/claphamchasers/pages/login/LoginPage';
 import {defineSupportCode} from 'cucumber';
 
-defineSupportCode(function ({And, But, Given, Then, When}) {
+defineSupportCode(function ({Given}) {
     Given(/^I am on the claphamchasers Sign In page$/, () => {
         loginpage.openPage();
     });
