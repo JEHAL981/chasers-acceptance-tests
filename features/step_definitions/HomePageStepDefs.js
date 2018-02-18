@@ -1,4 +1,4 @@
-import homepage from '../../src/test/claphamchasers/pages/home/HomePage'
+import homepage from '../../src/test/claphamchasers/pages/home/HomePage';
 import {defineSupportCode} from 'cucumber';
 
 defineSupportCode(function ({Then}) {
