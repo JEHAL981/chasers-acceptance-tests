@@ -3,9 +3,11 @@
   "version": "1.0.9",
   "description": "chasers site Acceptance Test",
   "scripts": {
+    "clean": "rm -rf target",
     "setup": "npm install",
     "test": "npm run test:local",
-    "test:local": "./node_modules/.bin/wdio conf/env/wdio.conf.js"
+    "test:local": "./node_modules/.bin/wdio conf/env/wdio.conf.js",
+    "commit": "npm run clean && npm run test:local"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

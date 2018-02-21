@@ -63,10 +63,8 @@ exports.config = {
 
     framework: 'cucumber',
 
-    reporters: ['cucumber', 'junit', 'cucumber-snippet'],
-    reporterOptions: {
-        outputDir: './target/outputs/reports/junit'
-    },
+    reporters: ['cucumber', 'cucumber-snippet'],
+
 
     cucumberOpts: {
         require: [
@@ -94,7 +92,7 @@ exports.config = {
      *  @param
      */
 
-    beforeScenario: function before() {
+    beforeFeature: function before() {
 
         browser.timeouts('implicit', 5000);
 
@@ -109,16 +107,12 @@ exports.config = {
 
     },
 
-    afterScenario: function () {
+    afterFeature: function () {
         return this.browser.deleteCookie();
     },
 
-    afterScenario: function () {
+    afterFeature: function () {
         return browser.reload();
 
-    },
-
-    registerHandler() {
-        return browser.end();
     }
 }

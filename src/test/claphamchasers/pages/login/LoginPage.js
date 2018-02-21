@@ -18,6 +18,12 @@ class LoginPage extends Page {
         browser.pause(1000);
     }
 
+    waitForLoginPageToLoad() {
+        if (!this._getEmailAddressElement().isVisible()) {
+            this._getEmailAddressElement().waitForVisible(5000);
+        }
+    }
+
     _getEmailAddressElement() {
         return browser.element(chasers_login_page_email_address_text_field);
     }

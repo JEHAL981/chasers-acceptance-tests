@@ -14,7 +14,7 @@ class HomePage {
 
     homeTitleIsDisplayed(home) {
         this._gethomeTextElement();
-        expect(this._gethomeTextElement().getText()).to.be.eql("James Hall");
+        expect(this._gethomeTextElement().getText()).to.be.eql("James Halls");
 
     }
 }
