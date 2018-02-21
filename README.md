@@ -37,21 +37,6 @@ To run the tests locally against the test portal environment:
 
 1. Run `npm run test:local`
 
-
-Configuration
--------------
-
-- `conf/wdio.conf.js` and `conf/bamboo.conf.js` define the configuration of webdriverio.  
-- `specs: [...]` defines matchers for the cucumber feature files to run as default. 
-- `services` and `capabilities` define the nature of the selenium execution.
-Most commonly support local (standalone) execution or Docker.
-- `baseUrl:` defines the default/base URL to use for the tests.
-This is most commonly the landing URL for the desired environment & app.
-- `require: [...]` defines the matchers for the step definitions to use in the run.
-
-For more information on configuration, see [CONFIGURATION FILE](http://webdriver.io/guide/testrunner/configurationfile.html)
-from the WebdriverIO documentation.
-
 To look at the tests
 --------------------
 
