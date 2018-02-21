@@ -1,10 +1,3 @@
-/**
- * Author: Kobaltmusic.ltd
- * Date:   27/06/2017
- * ObjectPage: HomePage
- **/
-
-
 import {homePage} from "../../locator/chasers/homepage_locator";
 
 const {
@@ -21,7 +14,7 @@ class HomePage {
 
     homeTitleIsDisplayed(home) {
         this._gethomeTextElement();
-        expect(this._gethomeTextElement().getText()).to.be.eql("James Halls");
+        expect(this._gethomeTextElement().getText()).to.be.eql("James Hall");
 
     }
 }

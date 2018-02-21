@@ -1,10 +1,3 @@
-/**
- * Author: Kobaltmusic.ltd
- * Date:   27/06/2017
- * ObjectPage: LoginPage
- **/
-
-
 'use Strict';
 
 import Page from './Page';
