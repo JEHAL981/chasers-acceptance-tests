@@ -12,4 +12,4 @@ Feature: chasers member login
   @complete
   Scenario: Login with valid credentials
     Given I am authorised chaser member signed in
-    Then  I should be directed to the chasers memebers section
+    Then  I should be directed to the chasers members section
