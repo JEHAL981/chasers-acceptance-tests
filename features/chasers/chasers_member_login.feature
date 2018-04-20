@@ -10,5 +10,8 @@ Feature: chasers member login
 
   @complete
   Scenario: Login with valid credentials
-    Given I am authorised chaser member signed in
-    Then  I should be directed to the chasers members section
+   Given an unauthenticated user
+   When the user tries to access a restricted asset
+   Then they should be directed to a login page
+   When the user submits valid credentials
+   Then they should be redirected back to the restricted content
