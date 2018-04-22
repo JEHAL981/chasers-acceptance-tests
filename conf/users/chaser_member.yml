@@ -1,7 +1,3 @@
 authorised:
-  email: JEHalls81@gmail.com
-  password: ALLM0DC0N5
-unauthorised:
-  id: KPC02
-  email: JEHalls81@gmail.com
-  password: ALLM0DC0N4
+  email: *********
+  password: ************
